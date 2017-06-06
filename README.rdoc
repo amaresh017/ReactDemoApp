@@ -1,9 +1,8 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=== Welcome to ReactDemoApp in Rails
 
-Things you may want to cover:
+Dev Setup:
 
 * Ruby version : 2.3.1, Rails version : 4.2.6
 
@@ -16,7 +15,7 @@ Things you may want to cover:
   - To create some dummy data run the below commond
   - bundle exec rake db:seed
 
-* run the below commond to get Gemfile dependencies and gems installed
+* Run the below commond to get Gemfile dependencies and gems installed
   - bundle   
 
 * To start the server
@@ -24,4 +23,4 @@ Things you may want to cover:
 
 * App url
   - http://localhost:3000/api/v1/items.json  (dummy data in json format)
-  - http://localhost:3000  (CRUD operation)
+  - http://localhost:3000  (CRUD operations)
