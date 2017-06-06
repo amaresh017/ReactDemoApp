@@ -5,24 +5,23 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version : 2.3.1, Rails version : 4.2.6
 
-* System dependencies
-
-* Configuration
+* Database : sqlite3
 
 * Database creation
+  - bundle exec rake db:migrate
 
 * Database initialization
+  - To create some dummy data run the below commond
+  - bundle exec rake db:seed
 
-* How to run the test suite
+* run the below commond to get Gemfile dependencies and gems installed
+  - bundle   
 
-* Services (job queues, cache servers, search engines, etc.)
+* To start the server
+  - bundle exec rails s
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* App url
+  - http://localhost:3000/api/v1/items.json  (dummy data in json format)
+  - http://localhost:3000  (CRUD operation)
